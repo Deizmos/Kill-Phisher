@@ -214,9 +214,9 @@ $(document).ready(function(){
     </html>`;
 
         Email.send({
-            SecureToken: "6e2a3207-9f12-4b9d-89af-5d6106f56a1f",
-            To : "info@anti-phishing.ru",
-            From : "info@anti-phishing.ru",
+            SecureToken: "",
+            To : "",
+            From : "",
             Subject : "Заявка от Kill Phisher",
             Body : body
         }).then((message) => {
