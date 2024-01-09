@@ -1,0 +1,86 @@
+.phishing {
+  margin-top: 208px;
+  color: #FFFFFF;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 166px;
+  width: 658px;
+}
+
+.phishing-first-text {
+
+}
+
+.phishing-second-text {
+  margin-top: 50px;
+}
+
+.phishing-color-text {
+  text-decoration: none;
+  color: #00DBAD;
+}
+
+.phishing-bg {
+  position: absolute;
+  width: 640px;
+  top: -190px;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.phishing-bg2 {
+  position: absolute;
+  width: 720px;
+  top: -310px;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.phishing-bg3 {
+  position: absolute;
+  width: 150px;
+  top: 240px;
+  left: 70px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.phishing-container {
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .phishing {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .phishing {
+    margin-top: 28px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 0;
+    width: 100%;
+    color: #DBDBDB;
+  }
+
+  .phishing-second-text {
+    margin-top: 20px;
+  }
+
+  .phishing-bg,
+  .phishing-bg2,
+  .phishing-bg3 {
+    display: none;
+  }
+}

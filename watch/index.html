@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kill Phisher</title>
+		<link href="css/index.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="background-mobile"></div>
+		<nav class="navbar">
+			<div class="navbar-bg"></div><img class="navbar-logo" id="logo" src="./images/logo.svg" alt="Логотип" width="120px" height="40px">
+			<ul class="navbar-list">
+				<li class="phishing-scroll"><a class="navbar-link" href="#">Фишинг</a></li>
+				<li class="interaction-algorithm-scroll"><a class="navbar-link" href="#">Система Kill Phisher</a></li>
+				<li class="about-us-scroll"><a class="navbar-link" href="#">О нас</a></li>
+				<li class="partners-scroll"><a class="navbar-link" href="#">Партнеры</a></li>
+				<li class="contacts-scroll"><a class="navbar-link" href="#">Контакты</a></li>
+			</ul>
+			<button class="burger"><span class="burger-item"></span><span class="burger-item burger-item-center"></span><span class="burger-item"></span></button><img class="navbar-mobile-exit" id="close" src="./images/close.svg" alt="Закрыть" width="17px" height="17px">
+		</nav>
+		<div class="mobile-menu">
+			<ul class="navbar-list-mobile">
+				<li class="navbar-list-mobile-line phishing-scroll"><a class="navbar-link" href="#">Фишинг</a></li>
+				<li class="navbar-list-mobile-line interaction-algorithm-scroll"><a class="navbar-link" href="#">Система Kill Phisher</a></li>
+				<li class="navbar-list-mobile-line about-us-scroll"><a class="navbar-link" href="#">О нас</a></li>
+				<li class="navbar-list-mobile-line partners-scroll"><a class="navbar-link" href="#">Партнеры</a></li>
+				<li class="navbar-list-mobile-line contacts-scroll"><a class="navbar-link" href="#">Контакты</a></li>
+			</ul>
+		</div>
+		<div class="contacts-message" id="alert-success">
+			<div class="contacts-message-exit"><img class="contacts-message-exit-svg" src="./images/exit.svg" alt="Выход"></div>
+			<div class="contacts-message-img">
+				<div class="contacts-message-svg-container"><img class="contacts-message-svg" src="./images/success.svg" alt="Успешно"></div>
+				<div class="contacts-message-description">
+					<h4 class="contacts-message-title">Спасибо!</h4>
+					<p class="contacts-message-text">Ваше сообщение отправлено.</p>
+				</div>
+			</div>
+		</div>
+		<div class="contacts-message" id="alert-failed">
+			<div class="contacts-message-exit"><img class="contacts-message-exit-svg" src="./images/exit.svg" alt="Выход"></div>
+			<div class="contacts-message-img">
+				<div class="contacts-message-svg-container-failed"><img class="contacts-message-svg" src="./images/failed.svg" alt="Ошибка"></div>
+				<div class="contacts-message-description">
+					<h4 class="contacts-message-title">Произошла ошибка</h4>
+					<p class="contacts-message-text">Попробуйте еще раз.</p>
+				</div>
+			</div>
+		</div>
+		<div class="main-container">
+			<div class="container">
+				<div class="product-info">
+					<h1 class="product-info-title"><span class="color-text">Противодействуем</span> кибер-операциям</h1>
+					<p class="product-info-text">Анти-фишинговая система для обнаружения, реагирования и прогнозирования атак.</p>
+					<div class="btn-group position-relative">
+						<div class="btn btn-product-info contacts-scroll">
+							<p>Узнать об угрозах</p>
+						</div>
+						<div class="btn btn-dark interaction-algorithm-scroll">
+							<p>Система Kill-Phisher</p>
+						</div>
+					</div>
+				</div><img class="product-info-bg" src="./images/top-bg.png" alt="Противодействуем кибер-операциям"><img class="product-info-bg-2" src="./images/top-bg2.png" alt="Фон"><img class="product-info-bg-3" src="./images/top-bg3.png" alt="Фон2"><img class="product-info-mobile-bg" src="./images/product-info-mobile-bg.png" alt="Фон мобильный"><img class="product-info-mobile-bg-2" src="./images/product-info-mobile-bg2.png" alt="Фон мобильный2">
+			</div>
+			<div class="container potential-threats-container"><img class="potential-threats-bg" src="./images/potential-threats-bg.png" alt="Фон"><img class="potential-threats-bg-2" src="./images/potential-threats-bg2.png" alt="Фон2"><img class="potential-threats-bg-3" src="./images/potential-threats-bg3.png" alt="Фон3"><img class="potential-threats-bg-4" src="./images/potential-threats-bg4.png" alt="Фон4"><img class="potential-threats-mobile-bg" src="./images/potential-threats-mobile-bg.png" alt="Фон мобильный"><img class="potential-threats-mobile-bg-2" src="./images/potential-threats-mobile-bg2.png" alt="Фон мобильный2"><img class="potential-threats-mobile-bg-3" src="./images/potential-threats-mobile-bg3.png" alt="Фон мобильный3"><img class="potential-threats-mobile-bg-4" src="./images/potential-threats-mobile-bg4.png" alt="Фон мобильный4"><img class="potential-threats-mobile-bg-5" src="./images/potential-threats-mobile-bg5.png" alt="Фон мобильный4">
+				<div class="potential-threats-content">
+					<h2 class="potential-threats-h2">Потенциальные<span class="color-text"> угрозы</span></h2>
+					<div class="potential-threats-nav">
+						<div class="potential-threats-arrow potentialPrevBtn"><img class="mr-4" src="./images/arrow-left.svg" alt="Назад"></div>
+						<div class="potential-threats-arrow potentialNextBtn"><img class="ml-4" src="./images/arrow-right.svg" alt="Вперёд"></div>
+					</div>
+					<div class="potential-threats-grid" id="potential-threats-carousel">
+						<div class="potential-threats-card">
+							<div class="potential-threats-img-group"><img class="potential-threats-img" src="./images/img1.png" alt="Логотип"></div>
+							<p class="card-text">Отказ в обслуживании и дестабилизация критически важных объектов</p>
+						</div>
+						<div class="potential-threats-card">
+							<div class="potential-threats-img-group"><img class="potential-threats-img" src="./images/img2.png" alt="Логотип"></div>
+							<p class="card-text">Целенаправленные мошеннические атаки и шантаж в отношении влиятельных персон мира бизнеса, политики, военный организаций, лидеров мнений.</p>
+						</div>
+						<div class="potential-threats-card">
+							<div class="potential-threats-img-group"><img class="potential-threats-img" src="./images/img3.png" alt="Логотип"></div>
+							<p class="card-text">Завладение и контроль над приватными кодовыми базами компаний разработки ПО.</p>
+						</div>
+						<div class="potential-threats-card">
+							<div class="potential-threats-img-group"><img class="potential-threats-img" src="./images/img4.png" alt="Логотип"></div>
+							<p class="card-text">Распространение вредоносного программного обеспечения для осуществления полного контроля над сетевой инфраструктурой организаций любого масштаба.</p>
+						</div>
+						<div class="potential-threats-card">
+							<div class="potential-threats-img-group"><img class="potential-threats-img" src="./images/img5.png" alt="Логотип"></div>
+							<p class="card-text">Атаки шифровальщиков на банковскую, транспортную, энергетическую, оборонную и промышленную инфраструктуру, медицинский и научный сектор, телекоммуникацию.</p>
+						</div>
+						<div class="potential-threats-card">
+							<div class="potential-threats-img-group"><img class="potential-threats-img" src="./images/img6.png" alt="Логотип"></div>
+							<p class="card-text">Утечки секретных данных, приватной и конфиденциальной информации бизнеса и специальных ведомств.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container phishing-container"><img class="phishing-bg" src="./images/phishing-bg.png" alt="Фон"><img class="phishing-bg2" src="./images/phishing-bg2.png" alt="Фон2"><img class="phishing-bg3" src="./images/phishing-bg3.png" alt="Фон3">
+				<div class="phishing">
+					<p class="phishing-first-text">Список векторов атак и их последствий - бесконечен. Тем не менее, одним из общих и объединяющих факторов, является – фишинг. Ключевой элемент, получения первоначального логического доступа к информационной среде.</p>
+					<p class="phishing-second-text">С целью, внесения собственного вклада в безопасность киберпространства, эксперты компании «S.V Anti-Phishing» разработали систему<a class="phishing-color-text" href="#"> Kill-Phisher.</a></p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="interaction-algorithm-group">
+					<div class="interaction-algorithm-card position-relative">
+						<div class="interaction-algorithm-description">
+							<h2 class="interaction-algorithm-title">Алгоритм<span class="interaction-algorithm-color-text"> взаимодействия</span> с системой</h2>
+							<p class="interaction-algorithm-content">Получение учетной записи в облачной системе Kill-Phisher / Размещение системы on-site для инфраструктур, не позволяющих рассмотрение облачного варианта.</p>
+						</div><img class="interaction-algorithm-img ml-104" src="./images/interaction-algorithm-img.png" alt="Фото: Учётная запись"><img class="interaction-algorithm-mobile-bg" src="./images/interaction-algorithm-mobile-bg.png" alt="Фон мобайл"><img class="interaction-algorithm-mobile-bg" src="./images/interaction-algorithm-mobile-bg.png" alt="Фон мобайл">
+					</div>
+					<div class="interaction-algorithm-card interaction-algorithm-card-revert position-relative">
+						<div class="interaction-algorithm-description ml-55">
+							<p class="interaction-algorithm-content">Добавление в соответствующий раздел системы - карты сетевой инфраструктуры организации, выполняющей роль белого списка легитимной инфраструктуры (внешние / локальные DNS домены компании).</p>
+						</div><img class="interaction-algorithm-img" src="./images/interaction-algorithm-img2.png" alt="Фото: Панель администратора"><img class="interaction-algorithm-bg" src="./images/interaction-algorithm-bg.png" alt="Фон"><img class="interaction-algorithm-bg2" src="./images/interaction-algorithm-bg2.png" alt="Фон2"><img class="interaction-algorithm-mobile-bg2" src="./images/interaction-algorithm-mobile-bg2.png" alt="Фон мобайл2">
+					</div>
+					<div class="interaction-algorithm-card position-relative">
+						<div class="interaction-algorithm-description">
+							<p class="interaction-algorithm-content">Установка плагина выполняющего роль клиентского программного обеспечения в браузеры сотрудников компании.</p>
+						</div><img class="interaction-algorithm-img ml-55" src="./images/interaction-algorithm-img3.png" alt="Фото: Плагин"><img class="interaction-algorithm-bg3" src="./images/interaction-algorithm-bg3.png" alt="Фон3"><img class="interaction-algorithm-bg4" src="./images/interaction-algorithm-bg4.png" alt="Фон4"><img class="interaction-algorithm-mobile-bg3" src="./images/interaction-algorithm-mobile-bg3.png" alt="Фон мобайл3">
+					</div>
+					<div class="interaction-algorithm-card interaction-algorithm-card-revert position-relative">
+						<div class="interaction-algorithm-description ml-55">
+							<p class="interaction-algorithm-content mb-20">Начало работы системы в базовой конфигурации. Доменное имя каждого ресурса отправляться плагином браузера в систему для дальнейшего анализа.</p>
+							<p class="interaction-algorithm-content">Сотрудник компании посещающий легитимный ресурс из белого списка разрешенных DNS имен, получает извещение в виде зеленого флага в плагине браузера.</p>
+						</div><img class="interaction-algorithm-img" src="./images/interaction-algorithm-img4.png" alt="Фото: Начало работы"><img class="interaction-algorithm-bg5" src="./images/interaction-algorithm-bg5.png" alt="Фон5"><img class="interaction-algorithm-bg6" src="./images/interaction-algorithm-bg6.png" alt="Фон6"><img class="interaction-algorithm-mobile-bg4" src="./images/interaction-algorithm-mobile-bg4.png" alt="Фон мобайл4">
+					</div>
+					<div class="interaction-algorithm-card position-relative">
+						<div class="interaction-algorithm-description">
+							<p class="interaction-algorithm-content"> Посещение нейтральной интернет-зоны — характеризуется в виде желтого флага в установленном плагине браузера.</p>
+						</div><img class="interaction-algorithm-img ml-55" src="./images/interaction-algorithm-img5.png" alt="Фото: Нейтральная зона"><img class="interaction-algorithm-bg7" src="./images/interaction-algorithm-bg7.png" alt="Фон7"><img class="interaction-algorithm-bg8" src="./images/interaction-algorithm-bg8.png" alt="Фон8"><img class="interaction-algorithm-mobile-bg5" src="./images/interaction-algorithm-mobile-bg5.png" alt="Фон мобайл5">
+					</div>
+					<div class="interaction-algorithm-card interaction-algorithm-card-revert position-relative">
+						<div class="interaction-algorithm-description ml-55">
+							<p class="interaction-algorithm-content">На данном этапе, пользователь системы информирован о безопасных зонах из белого списка и понимает риски взаимодействия с доменами, не попадающими под классификацию зеленого флага.</p>
+						</div><img class="interaction-algorithm-img" src="./images/interaction-algorithm-img6.png" alt="Фото: Риски"><img class="interaction-algorithm-bg9" src="./images/interaction-algorithm-bg5.png" alt="Фон9"><img class="interaction-algorithm-bg10" src="./images/interaction-algorithm-bg9.png" alt="Фон10"><img class="interaction-algorithm-mobile-bg6" src="./images/interaction-algorithm-mobile-bg6.png" alt="Фон мобайл6">
+					</div>
+					<div class="interaction-algorithm-card position-relative">
+						<div class="interaction-algorithm-description">
+							<p class="interaction-algorithm-content"> Подключение дополнительных модулей для обнаружения целенаправленных атак</p>
+						</div><img class="interaction-algorithm-img ml-55" src="./images/interaction-algorithm-img7.png" alt="Фото: Подключение доп модулей"><img class="interaction-algorithm-bg11" src="./images/interaction-algorithm-bg8.png" alt="Фон11"><img class="interaction-algorithm-bg12" src="./images/interaction-algorithm-bg10.png" alt="Фон12"><img class="interaction-algorithm-mobile-bg7" src="./images/interaction-algorithm-mobile-bg7.png" alt="Фон мобайл7">
+					</div>
+					<div class="interaction-algorithm-card interaction-algorithm-card-revert position-relative">
+						<div class="interaction-algorithm-description ml-55">
+							<p class="interaction-algorithm-content">Получение красного флага пользоваталем в плагине браузера</p>
+						</div><img class="interaction-algorithm-img" src="./images/interaction-algorithm-img8.png" alt="Фото: Получение флага"><img class="interaction-algorithm-bg13" src="./images/interaction-algorithm-bg11.png" alt="Фон13"><img class="interaction-algorithm-bg14" src="./images/interaction-algorithm-bg12.png" alt="Фон14"><img class="interaction-algorithm-mobile-bg8" src="./images/interaction-algorithm-mobile-bg8.png" alt="Фон мобайл8">
+					</div>
+					<div class="interaction-algorithm-card position-relative">
+						<div class="interaction-algorithm-description">
+							<p class="interaction-algorithm-content"> Эксперт Blue Team команды, получает извещение о наличии красного флага с возможностью реагировать на атаку в кратчайшие сроки.</p>
+						</div><img class="interaction-algorithm-img ml-55" src="./images/interaction-algorithm-img9.png" alt="Фото: Получение извещения"><img class="interaction-algorithm-bg15" src="./images/interaction-algorithm-bg13.png" alt="Фон15"><img class="interaction-algorithm-bg16" src="./images/interaction-algorithm-bg14.png" alt="Фон16"><img class="interaction-algorithm-mobile-bg9" src="./images/interaction-algorithm-mobile-bg9.png" alt="Фон мобайл9">
+					</div>
+				</div>
+			</div>
+			<div class="container position-relative system-advantages-container"><img class="system-advantages-mobile-bg" src="./images/system-advantages-mobile-bg.png" alt="Фон мобайл"><img class="system-advantages-mobile-bg2" src="./images/system-advantages-mobile-bg2.png" alt="Фон мобайл2">
+				<div class="system-advantages">
+					<h2 class="system-advantages-title"><span class="system-advantages-color-text">Преимущества</span> системы</h2>
+				</div>
+				<div class="system-advantages-nav">
+					<div class="system-advantages-arrow customPrevBtn"><img class="mr-4" src="./images/arrow-left.svg" alt="Назад"></div>
+					<div class="system-advantages-arrow customNextBtn"><img class="ml-4" src="./images/arrow-right.svg" alt="Вперёд"></div>
+				</div>
+				<div class="owl-carousel" id="system-advantages-carousel">
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img.png" alt="Блок №1&gt;">
+						<p class="system-advantages-description">Психологически осознанный и понятный принцип работы светофора – позволяет адаптировать Security Awareness практики на этапе onboarding в организации.</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img2.png" alt="Блок №2&gt;">
+						<p class="system-advantages-description">Возможность включения блокировки вредоносного домена, не затрагивая сетевое оборудование компании и персонал из смежных отделов.</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img3.png" alt="Блок №3&gt;">
+						<p class="system-advantages-description">Осуществление контроля над веб-трафиком сотрудников, функционирующих в удаленном режиме (не изолированных в пределах сетевого периметра компании).</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img4.png" alt="Блок №4&gt;">
+						<p class="system-advantages-description">Интеграция с поставщиком Threat Intelligence информации – RST Cloud, позволяющая использовать систему для обнаружения наиболее активной вредоносной деятельности в виде:</p>
+						<p class="system-advantages-description">- фишинговых операций</p>
+						<p class="system-advantages-description">- распространения вредоносного программного обеспечения</p>
+						<p class="system-advantages-description">- бот - сетей активных преступных групп</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img5.png" alt="Блок №5&gt;">
+						<p class="system-advantages-description">Набор плагинов для наиболее популярных браузеров.</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img6.png" alt="Блок №6&gt;">
+						<p class="system-advantages-description">Возможность интеграции оповещений об инциденте с использованием различных каналов связи:</p>
+						<p class="system-advantages-description">- Email</p>
+						<p class="system-advantages-description">- Telegram</p>
+						<p class="system-advantages-description">- Custom WebHook</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img7.png" alt="Блок №7&gt;">
+						<p class="system-advantages-description">Доступный API для обработки статистических данных об инцидентах и пользовательском трафике.</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img8.png" alt="Блок №8&gt;">
+						<p class="system-advantages-description">Возможность размещения в изолированном облаке для индивидуальных нужд заказчика.</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img9.png" alt="Блок №9&gt;">
+						<p class="system-advantages-description">Возможность интеграции системы в существующую инфраструктуру заказчика для обеспечения максимального уровня безопасности.</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img10.png" alt="Блок №10&gt;">
+						<p class="system-advantages-description">Система не хранит конфиденциальных данных компании о пользователях. Сводная таблица пользователей и идентификаторов плагина храниться и поддерживаться исключительно на стороне клиента.</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img11.png" alt="Блок №11&gt;">
+						<p class="system-advantages-description">Постоянно обновляемые правила поиска целенаправленных атак на домены компании.</p>
+					</div>
+					<div class="system-advantages-card"><img class="system-advantages-img" src="./images/system-advantages-img12.png" alt="Блок №12&gt;">
+						<p class="system-advantages-description">Единая среда для обнаружения и реагирования на фишинговые атаки в web</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="metrics-system-container position-relative"><img class="metrics-system-bg" src="./images/metrics-system-bg.png" alt="Фон"><img class="metrics-system-bg2" src="./images/metrics-system-bg2.png" alt="Фон2"><img class="metrics-system-bg3" src="./images/metrics-system-bg3.png" alt="Фон3"><img class="metrics-system-mobile-bg" src="./images/metrics-system-mobile-bg.png" alt="Фон мобайл"><img class="metrics-system-mobile-bg2" src="./images/metrics-system-mobile-bg2.png" alt="Фон мобайл2"><img class="metrics-system-mobile-bg3" src="./images/metrics-system-mobile-bg3.png" alt="Фон мобайл3"><img class="metrics-system-mobile-bg4" src="./images/metrics-system-mobile-bg4.png" alt="Фон мобайл4">
+					<h2 class="metrics-system-title"><span class="metrics-system-color-text">Система метрик,</span> позволяющая:</h2>
+					<div class="metrics-system-group">
+						<div class="metrics-system-card"><img class="metrics-system-img" src="./images/metrics-system-img.png" alt="Будущие атаки">
+							<p class="metrics-system-description">Прогнозировать будущие атаки.</p>
+						</div>
+						<div class="metrics-system-card"><img class="metrics-system-img" src="./images/metrics-system-img2.png" alt="Слабые звенья">
+							<p class="metrics-system-description">Выявлять наиболее слабые организационные звенья компании в виде отделов, департаментов, определенных лиц наиболее подверженных фишинговым атакам.</p>
+						</div>
+						<div class="metrics-system-card"><img class="metrics-system-img" src="./images/metrics-system-img3.png" alt="Виды атак">
+							<p class="metrics-system-description">Выявлять наиболее частые виды фишинговых атак и как следствие адаптировать систему security awareness для шлифовки навыков по обнаружению и минимизации рисков с данным вектором атаки.</p>
+						</div>
+						<div class="metrics-system-card"><img class="metrics-system-img" src="./images/metrics-system-img4.png" alt="Помощь">
+							<p class="metrics-system-description">Оказывать значительную помощь на этапе расследования инцидентов.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="about-us-container position-relative"><img class="about-us-bg" src="./images/about-us-bg.png" alt="Фон"><img class="about-us-bg2" src="./images/about-us-bg2.png" alt="Фон2"><img class="about-us-mobile-bg" src="./images/about-us-mobile-bg.png" alt="Фон мобайл"><img class="about-us-mobile-bg2" src="./images/about-us-mobile-bg2.png" alt="Фон мобайл2"><img class="about-us-mobile-bg3" src="./images/about-us-mobile-bg3.png" alt="Фон мобайл3"><img class="about-us-mobile-bg4" src="./images/about-us-mobile-bg4.png" alt="Фон мобайл4">
+					<h2 class="about-us-title">О нас</h2>
+					<div class="about-us-group">
+						<div class="about-us-card"><img class="about-us-img" src="./images/about-us-img.png" alt="Co-Founder">
+							<h3 class="about-us-card-title">Александр Семененко (Co-Founder)</h3>
+							<h4 class="about-us-card-job-title">Эксперт по информационной безопасности.</h4><a class="about-us-card-link" href="https://www.linkedin.com/in/alexander-semenenko" target="_blank">https://www.linkedin.com/in/alexander-semenenko/</a>
+							<div class="about-us-card-description-container">
+								<p class="about-us-card-description">Более 8 лет опыта работы в области консалтинга безопасности для клиентов: банковской, энергетической, промышленной сферы, финансовых институтов, IT-компаний.</p>
+								<p class="about-us-card-description">Специализируется в области практического анализа безопасности (Red Team, Pentest) / Application Security.</p>
+							</div>
+						</div>
+						<div class="about-us-card"><img class="about-us-img" src="./images/about-us-img2.png" alt="CTO">
+							<h3 class="about-us-card-title">Co-Founder (CTO).</h3>
+							<div class="about-us-card-description-container">
+								<p class="about-us-card-description">Эксперт в области промышленной разработки, с опытом работы более 14 лет. Успешно возглавлял технические отделы в крупных корпорациях.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="partners-container position-relative"><img class="partners-bg" src="./images/partners-bg.png" alt="Фон">
+					<h2 class="partners-title">Партнеры</h2>
+					<div class="partners-group"><img class="partners-img" src="./images/rst-logo.svg" alt="RST">
+						<p class="partners-description">Более 260 открытых источников знаний о киберугрозах, включая Twitter, Telegram, Online-песочницы и TI-отчеты. 250К+ индикаторов компрометации в день, подготовленных к использованию в ваших СЗИ.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container position-relative">
+				<div class="contacts"><img class="contacts-bg" src="./images/contacts-bg.png" alt="Фон"><img class="contacts-bg2" src="./images/contacts-bg2.png" alt="Фон2"><img class="contacts-bg3" src="./images/contacts-bg3.png" alt="Фон3"><img class="contacts-bg4" src="./images/contacts-bg4.png" alt="Фон4"><img class="contacts-mobile-bg" src="./images/contacts-mobile-bg.png" alt="Фон мобайл"><img class="contacts-mobile-bg2" src="./images/contacts-mobile-bg2.png" alt="Фон мобайл2"><img class="contacts-mobile-bg3" src="./images/contacts-mobile-bg3.png" alt="Фон мобайл3"><img class="contacts-mobile-bg4" src="./images/contacts-mobile-bg4.png" alt="Фон мобайл4">
+					<h2 class="contacts-title">Контакты</h2>
+					<form class="contacts-form">
+						<h3 class="contacts-form-title">Есть вопросы?</h3>
+						<div class="contacts-form-group">
+							<input class="contacts-input" type="text" id="name" name="name" placeholder="ФИО*" pattern="[А-Яа-яA-Za-zЁёs]+" required>
+							<input class="contacts-input" type="text" id="company" name="company" placeholder="Компания*" required>
+						</div>
+						<div class="contacts-form-group">
+							<input class="contacts-input" type="tel" id="tel" name="tel" placeholder="Номер телефона*" required>
+							<input class="contacts-input" type="email" id="email" name="email" placeholder="E-mail*" required>
+						</div>
+						<div class="contacts-form-message">
+							<textarea class="contacts-input contacts-input-message" id="message" name="message" placeholder="Сообщение"></textarea>
+						</div>
+						<button class="btn btn-contacts">
+							<p>Отправить</p>
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="footer"><img class="footer-logo" id="logo" src="./images/logo.svg" alt="Логотип" width="200px" height="68px">
+				<div class="footer-link-list">
+					<ul class="footer-list">
+						<li class="footer-link-container phishing-scroll"><a class="footer-link" href="#">Фишинг</a></li>
+						<li class="footer-link-container interaction-algorithm-scroll"><a class="footer-link" href="#">Система Kill Phisher</a></li>
+						<li class="footer-link-container about-us-scroll"><a class="footer-link" href="#">О нас</a></li>
+						<li class="footer-link-container partners-scroll"><a class="footer-link" href="#">Партнеры</a></li>
+						<li class="footer-link-container contacts-scroll"><a class="footer-link" href="#">Контакты</a></li>
+					</ul>
+					<div class="footer-info"><a class="footer-link" href="mailto:info@anti-phishing.ru">info@anti-phishing.ru</a><a href="https://www.linkedin.com/in/alexander-semenenko" target="_blank"><img class="footer-linkedin-logo" id="info" src="./images/linkedin.svg" alt="LinkedIn" width="32px" height="32px"></a></div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://github.com/mattbryson/TouchSwipe-Jquery-Plugin/blob/master/jquery.touchSwipe.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+		<script src="js/smtp.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,168 @@
+.metrics-system-container {
+  margin-top: 80px;
+}
+
+.metrics-system-title {
+  margin-bottom: 40px;
+  font-family: 'AnonymousPro';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.metrics-system-color-text {
+  color: #00DBAD;
+}
+
+.metrics-system-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -60px;
+}
+
+.metrics-system-card {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.metrics-system-card:last-child {
+  margin-right: 0;
+}
+
+.metrics-system-img {
+  width: 100%;
+}
+
+.metrics-system-description {
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #FFFFFFCC;
+}
+
+.metrics-system-bg {
+  position: absolute;
+  width: 1430px;
+  top: -470px;
+  right: -70px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.metrics-system-bg2 {
+  position: absolute;
+  width: 730px;
+  top: -360px;
+  right: 150px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.metrics-system-bg3 {
+  position: absolute;
+  width: 800px;
+  top: 100px;
+  right: -70px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.metrics-system-mobile-bg,
+.metrics-system-mobile-bg2,
+.metrics-system-mobile-bg3,
+.metrics-system-mobile-bg4 {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .metrics-system-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -60px;
+  }
+
+  .metrics-system-card {
+    width: calc(100vw/2 - 90px);
+  }
+
+  .metrics-system-card:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .metrics-system-container {
+    margin-top: 42px;
+  }
+
+  .metrics-system-title {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .metrics-system-description {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .metrics-system-bg,
+  .metrics-system-bg2,
+  .metrics-system-bg3 {
+    display: none;
+  }
+
+  .metrics-system-mobile-bg {
+    display: block;
+    position: absolute;
+    width: 260px;
+    top: -40px;
+    left: -20px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .metrics-system-mobile-bg2 {
+    display: block;
+    position: absolute;
+    width: 370px;
+    top: -90px;
+    left: -20px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .metrics-system-mobile-bg3 {
+    display: block;
+    position: absolute;
+    width: 350px;
+    bottom: 150px;
+    right: -20px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .metrics-system-mobile-bg4 {
+    display: block;
+    position: absolute;
+    width: 430px;
+    bottom: 310px;
+    right: -20px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  @media (max-width: 500px) {
+    .metrics-system-group {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: -60px;
+    }
+    .metrics-system-card {
+      width: 100%;
+    }
+  }
+}

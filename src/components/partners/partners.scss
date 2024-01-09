@@ -1,0 +1,119 @@
+.partners-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.partners-title {
+  font-family: 'AnonymousPro';
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 60px;
+}
+
+.partners-group {
+  height: 400px;
+  border-radius: 32px;
+  background: linear-gradient(120.05deg, rgba(255, 255, 255, 0.05) 9.05%, rgba(255, 255, 255, 0.05) 87.31%);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  z-index: 1;
+  width: 100%;
+}
+
+.partners-img {
+  width: 35%;
+  margin-right: 66px;
+}
+
+.partners-description {
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #FFFFFFCC;
+  max-width: 454px;
+}
+
+.partners-bg {
+  position: absolute;
+  width: 400px;
+  top: -200px;
+  left: -70px;
+  z-index: 0;
+  pointer-events: none;
+}
+@media (min-width: 1440px) {
+  .partners-img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .partners-group {
+    width: 100%;
+    border-radius: 25px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 30px;
+  }
+
+  .partners-img {
+    width: 200px;
+    height: 85px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .partners-description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .partners-container {
+    margin-top: 50px;
+  }
+
+  .partners-title {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+
+  .partners-group {
+    height: 322px;
+    width: 100%;
+    border-radius: 25px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .partners-img {
+    width: 200px;
+    height: 85px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .partners-description {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  .partners-bg {
+    display: none;
+  }
+}

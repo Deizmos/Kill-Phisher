@@ -1,0 +1,294 @@
+.potential-threats-h2 {
+  text-align: center;
+}
+
+.potential-threats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 48px;
+  grid-row-gap: 48px;
+}
+
+.potential-threats-card {
+  position: relative;
+  padding: 26px;
+  min-height: 385px;
+  border-radius: 32px;
+}
+
+.potential-threats-card:before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 32px;
+  background: linear-gradient(120.05deg, rgba(255, 255, 255, 0.05) 9.05%, rgba(255, 255, 255, 0.05) 87.31%);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.potential-threats-img-group {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  margin-left: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.potential-threats-img-group:before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 52px;
+  height: 52px;
+  background: #00DBAD;
+  border-radius: 50%;
+  left: -23px;
+  top: 24px;
+}
+
+.color-text {
+  color: #00DBAD;
+}
+
+.potential-threats-img-group:after {
+  content: '';
+  z-index: 1;
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  background: #FFFFFF0A;
+  border-radius: 50%;
+  right: 0;
+  box-shadow: 0 1.5746841430664062px 3.1493682861328125px 0 #00DBAD80 inset;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.potential-threats-img-group img {
+  position: relative;
+  z-index: 2;
+}
+
+.card-text {
+  position: relative;
+  z-index: 1;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.potential-threats-bg{
+  position: absolute;
+  bottom: -582px;
+  right: 0;
+  width: 730px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.potential-threats-bg-2{
+  position: absolute;
+  bottom: -485px;
+  right: 0;
+  width: 485px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.potential-threats-container {
+  position: relative;
+}
+
+.potential-threats-bg-3 {
+  position: absolute;
+  top: -260px;
+  left: 0;
+  width: 650px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.potential-threats-bg-4{
+  position: absolute;
+  top: -242px;
+  left: 0;
+  width: 1024px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.potential-threats-content {
+  position: relative;
+  z-index: 1;
+}
+
+.potential-threats-img {
+  width: 80px;
+  height: 80px;
+}
+
+.potential-threats-mobile-bg,
+.potential-threats-mobile-bg-2,
+.potential-threats-mobile-bg-3,
+.potential-threats-mobile-bg-4,
+.potential-threats-mobile-bg-5 {
+  display: none;
+  pointer-events: none;
+}
+
+.potential-threats-nav {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .potential-threats-grid {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .potential-threats-h2 {
+    padding-right: 20px;
+  }
+
+  .potential-threats-container {
+    padding-right: 0;
+  }
+
+  .potential-threats-h2 {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 32px;
+  }
+
+  .potential-threats-card {
+    padding: 15px;
+    min-height: 220px;
+  }
+
+  .potential-threats-img-group {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .potential-threats-nav {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 40px;
+    margin-right: 20px;
+  }
+
+  .potential-threats-arrow {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .potential-threats-arrow:hover,
+  .potential-threats-arrow:active {
+    border-radius: 50%;
+    background: #00DBAD80;
+  }
+
+  .potential-threats-img {
+    max-width: 32px;
+    height: 32px;
+  }
+
+  .potential-threats-img-group:after {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  .potential-threats-img-group:before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    width: 21px;
+    height: 21px;
+    background: #00DBAD;
+    border-radius: 50%;
+    left: -10px;
+    top: 10px;
+  }
+  .card-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .potential-threats-bg,
+  .potential-threats-bg-2,
+  .potential-threats-bg-3,
+  .potential-threats-bg-4 {
+    display: none;
+  }
+
+  .potential-threats-mobile-bg {
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 230px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .potential-threats-mobile-bg-2 {
+    display: block;
+    position: absolute;
+    top: -160px;
+    left: 0;
+    width: 300px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .potential-threats-mobile-bg-3 {
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 150px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .potential-threats-mobile-bg-4 {
+    display: block;
+    position: absolute;
+    top: 340px;
+    left: 0;
+    width: 160px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .potential-threats-mobile-bg-5 {
+    display: block;
+    position: absolute;
+    top: 340px;
+    left: 0;
+    width: 200px;
+    z-index: 0;
+    pointer-events: none;
+  }
+}

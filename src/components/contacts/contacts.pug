@@ -1,0 +1,24 @@
+.container.position-relative
+    .contacts
+        img.contacts-bg(src='./images/contacts-bg.png' alt='Фон')
+        img.contacts-bg2(src='./images/contacts-bg2.png' alt='Фон2')
+        img.contacts-bg3(src='./images/contacts-bg3.png' alt='Фон3')
+        img.contacts-bg4(src='./images/contacts-bg4.png' alt='Фон4')
+        img.contacts-mobile-bg(src='./images/contacts-mobile-bg.png' alt='Фон мобайл')
+        img.contacts-mobile-bg2(src='./images/contacts-mobile-bg2.png' alt='Фон мобайл2')
+        img.contacts-mobile-bg3(src='./images/contacts-mobile-bg3.png' alt='Фон мобайл3')
+        img.contacts-mobile-bg4(src='./images/contacts-mobile-bg4.png' alt='Фон мобайл4')
+        h2.contacts-title Контакты
+        form.contacts-form
+            h3.contacts-form-title Есть вопросы?
+            .contacts-form-group
+                input.contacts-input(type="text" id="name" name="name" placeholder="ФИО*" pattern="[А-Яа-яA-Za-zЁё\s]+" required)
+                input.contacts-input(type="text" id="company" name="company" placeholder="Компания*" required)
+            .contacts-form-group
+                input.contacts-input(type="tel" id="tel" name="tel" placeholder="Номер телефона*" required)
+                input.contacts-input(type="email" id="email" name="email" placeholder="E-mail*" required)
+            .contacts-form-message
+                textarea.contacts-input.contacts-input-message(id="message" name="message" placeholder="Сообщение")
+            button.btn.btn-contacts
+                p Отправить
+

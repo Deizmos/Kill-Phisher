@@ -1,0 +1,246 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 132px;
+}
+
+.about-us-title {
+  font-family: 'AnonymousPro';
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.about-us-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-card {
+  width: calc((100vw - 180px) / 2);
+  min-height: 750px;
+  box-sizing: border-box;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 42px;
+  background: linear-gradient(120.05deg, rgba(255, 255, 255, 0.05) 9.05%, rgba(255, 255, 255, 0.05) 87.31%);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.about-us-card:first-child {
+  margin-right: 40px;
+}
+
+.about-us-img {
+  width: 300px;
+  height: 300px;
+}
+
+.about-us-card-title {
+  font-family: 'Ubuntu';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #00DBAD;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.about-us-card-job-title {
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.about-us-card-link {
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.about-us-card-description {
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFFFFFCC;
+  text-align: center;
+}
+
+.about-us-card-description:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.about-us-card-description-container {
+  width: 374px;
+}
+
+.about-us-bg {
+  position: absolute;
+  width: 800px;
+  top: -110px;
+  right: 190px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.about-us-bg2 {
+  position: absolute;
+  width: 1300px;
+  top: -320px;
+  right: -20px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.about-us-mobile-bg,
+.about-us-mobile-bg2,
+.about-us-mobile-bg3,
+.about-us-mobile-bg4 {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .about-us-group {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .about-us-card {
+    width: 100%;
+    min-height: 370px;
+    border-radius: 25px;
+    padding: 20px 18px 26px 18px;
+    justify-content: center;
+    background: linear-gradient(120.05deg, rgba(255, 255, 255, 0.05) 9.05%, rgba(255, 255, 255, 0.05) 87.31%);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-us-container {
+    margin-top: 50px;
+  }
+
+  .about-us-group {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about-us-title {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+
+  .about-us-card {
+    width: 100%;
+    min-height: 370px;
+    border-radius: 25px;
+    padding: 20px 18px 26px 18px;
+    justify-content: center;
+    background: linear-gradient(120.05deg, rgba(255, 255, 255, 0.05) 9.05%, rgba(255, 255, 255, 0.05) 87.31%);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+
+  .about-us-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about-us-card-title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .about-us-card-job-title {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+
+  .about-us-card-link {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .about-us-card-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .about-us-card-description-container {
+    width: 302px;
+  }
+
+  .about-us-card:first-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-us-bg,
+  .about-us-bg2 {
+    display: none;
+  }
+
+  .about-us-mobile-bg {
+    display: block;
+    position: absolute;
+    width: 350px;
+    top: -220px;
+    right: -20px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .about-us-mobile-bg2 {
+    display: block;
+    position: absolute;
+    width: 390px;
+    top: -480px;
+    right: -20px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .about-us-mobile-bg3 {
+    display: block;
+    position: absolute;
+    width: 390px;
+    top: 330px;
+    left: -20px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .about-us-mobile-bg4 {
+    display: block;
+    position: absolute;
+    width: 350px;
+    bottom: -460px;
+    left: -20px;
+    z-index: 0;
+    pointer-events: none;
+  }
+}

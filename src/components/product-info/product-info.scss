@@ -1,0 +1,170 @@
+.product-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 228px ;
+  margin-bottom: 407px;
+  position: relative;
+  z-index: 2;
+}
+
+.product-info-title {
+  font-family: 'AnonymousPro';
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.color-text {
+  display: block;
+  color: #00DBAD;
+  margin: 0;
+}
+
+.product-info-text {
+  font-family: 'Ubuntu';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFFCC;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  max-width: 550px;
+}
+
+.btn-group {
+  display: flex;
+  z-index: 1;
+}
+
+.btn-product-info {
+  margin-right: 17px;
+}
+
+.product-info-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1163px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.product-info-bg-2 {
+  position: absolute;
+  bottom: 210px;
+  right: 0;
+  width: calc(1440px - 325px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.product-info-bg-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(1440px - 649px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.product-info-mobile-bg {
+  display: none;
+}
+
+.product-info-mobile-bg-2 {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .product-info {
+    margin-bottom: 250px;
+  }
+
+  .product-info-bg {
+    width: 880px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 126px ;
+    margin-bottom: 444px;
+  }
+
+  .product-info-title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .product-info-text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFFCC;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .btn-group {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    margin-right: 0;
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .btn:first-child {
+    margin-bottom: 20px;
+  }
+
+  .product-info-bg {
+    display: none;
+  }
+
+  .product-info-bg-2 {
+    display: none;
+  }
+
+  .product-info-bg-3 {
+    display: none;
+  }
+
+  .product-info-mobile-bg {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100vw;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+
+  .product-info-mobile-bg-2 {
+      display: block;
+      position: absolute;
+      bottom: 120px;
+      left: 0;
+      width: 100vw;
+      pointer-events: none;
+      z-index: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .product-info-mobile-bg-2 {
+    display: block;
+    position: absolute;
+    top: 210px;
+    left: 0;
+    width: 100vw;
+    pointer-events: none;
+    z-index: 0;
+  }
+}

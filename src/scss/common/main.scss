@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'AnonymousPro';
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin-bottom: 70px;
+}
+
+.main-container {
+  background: #000201;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -85px;
+}
+
+.container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 235px;
+  height: 55px;
+  border-radius: 50px;
+  gap: 10px;
+  border: 2px solid #00DBAD;
+  background: #00DBAD;
+  color: #000000;
+
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+
+  box-shadow: 0px 20px 50px 0px #00DBAD26;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background: #0000009c;
+  color: #00DBAD;
+}
+
+.btn:hover {
+  background: #00B38D;
+  border: 2px solid #00B38D;
+  color: #000000;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.ml-4 {
+  margin-left: 4px;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,65 @@
+#alert-success {
+  display: none;
+}
+
+.contacts-message {
+  height: 100px;
+  width: 335px;
+  background: #0E2A24;
+  border-radius: 10px;
+  padding: 24px 44px 24px 15px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.contacts-message-img {
+  display: flex;
+}
+
+.contacts-message-svg-container {
+  background: #00DBAD99;
+  width: 52px;
+  height: 52px;
+  border-radius: 60px;
+  margin-right: 16px;
+}
+
+.contacts-message-title {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.contacts-message-text {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #FFFFFFCC;
+}
+
+.contacts-message-exit {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  border-radius: 29px;
+  background: #FFFFFF99;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts-message-svg-container-failed {
+  background: #FF1B1D80;
+  width: 52px;
+  height: 52px;
+  border-radius: 60px;
+  margin-right: 16px;
+}
